@@ -21,5 +21,6 @@
 }.square:hover{
     scale: 1.1;
 }.black{
+    border: 1px white solid;
     background-color: black;
 }
