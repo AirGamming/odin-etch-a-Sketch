@@ -11,7 +11,6 @@
 }.container{
     height: 80vh;
     display: grid;
-    /*grid-template-columns: repeat(16, 1fr); */
     aspect-ratio: 1/1;
     border: black 1px solid
 }.square{
@@ -23,4 +22,28 @@
 }.black{
     border: 1px white solid;
     background-color: black;
+}#controlls{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}#nubmer{
+    width: 65px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}button{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all .2s;
+}button:hover{
+    scale: 1.5;
+    box-shadow: 0px 5px 5px 5px #0202024f;
 }
